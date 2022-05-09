@@ -1,0 +1,21 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <div class="slds-align_absolute-center" style="font-size: 45px;">
+        Copy To Clipboard 📋 Functionality Using Lightning Component ⚡<br/>
+    </div>
+	<div class="slds-align_absolute-center" style="font-size: 25px;">
+        <br/><lightning:textarea value="Hi there, Welcome ;)" aura:id="text_Input"/><br/>
+    </div>
+    <div class="slds-align_absolute-center" >
+        <br/><lightning:button label="Copy to Clipboard" onclick="{!c.textCopy}" iconName="utility:copy_to_clipboard"/><br/>
+    </div>
+    <div class="slds-align_absolute-center" style="font-size: 25px;">
+    	<br/><lightning:textarea value="" label="Paste the Text here!!"/>
+    </div>
+    <div class="slds-align_absolute-center" style="font-size: 30px;">
+        <br/><br/>Done by: Sourabh Naik ☁️
+    </div>
+    <div class="slds-align_absolute-center" style="font-size: 30px;" >
+        <a href="https://www.linkedin.com/in/sourabhnaik24/" target="_blank">Linkedin &nbsp;|</a>
+        <a href="https://trailblazer.me/id/sourabhnaik98" target="_blank">&nbsp; Trailhead</a>
+	</div>
+</aura:component>
